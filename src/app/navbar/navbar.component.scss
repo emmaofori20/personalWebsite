@@ -1,14 +1,14 @@
 .topnav {
     overflow: hidden;
     background-color: rgb(26 34 112 / 58%);
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     padding: 10px 60px;
 }
 
 img {
-    height: 50px;
-    width: 150px;
+    height: 65px;
+    width: 160px;
 }
 
 .topnav a {
@@ -21,6 +21,7 @@ img {
     text-decoration: none;
     font-weight: lighter;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 
@@ -48,12 +49,13 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
+    .topnav a {
         display: none;
     }
     .topnav a.icon {
         float: right;
         display: block;
+        font-size: 26px;
     }
 }
 
